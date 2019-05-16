@@ -10,6 +10,7 @@ namespace TeduShop.Data
             this.Configuration.LazyLoadingEnabled = false;
         }
 
+        public DbSet<Error> Errors { set; get; }
         public DbSet<Footer> Footers { set; get; }
         public DbSet<Menu> Menus { set; get; }
         public DbSet<MenuGroup> MenuGroups { set; get; }
